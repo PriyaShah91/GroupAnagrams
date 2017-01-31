@@ -14,7 +14,7 @@ public static void main(String[] args) throws FileNotFoundException  {
 public static void findAnagrams(String path) throws FileNotFoundException{
 	Scanner sc = new Scanner(new File(path));
 	
-	// Build a HashMap while reading words from a while
+	// Build a HashMap while reading words from a file
 	HashMap<String, String> wordMap = new HashMap<String, String>();
 	
 	while (sc.hasNextLine()) {
